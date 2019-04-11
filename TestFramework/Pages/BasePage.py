@@ -11,6 +11,7 @@ import inspect
 
 class BasePage:
     """POM中所有页面类的基类"""
+
     def __init__(self, driver):
         self.driver = driver
         self.browser = Browser(self.driver)

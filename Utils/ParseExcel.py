@@ -40,7 +40,7 @@ class ExcelParser:
         elif filter_none in ['end', 'End', 'END']:
             for i, val in enumerate(row_values[::-1]):
                 if val is not None:
-                    row_values = row_values[:len(row_values)-i]
+                    row_values = row_values[:len(row_values) - i]
                     break
         return row_values
 
@@ -51,7 +51,7 @@ class ExcelParser:
         elif filter_none in ['end', 'End', 'END']:
             for i, val in enumerate(col_values[::-1]):
                 if val is not None:
-                    col_values = col_values[:len(col_values)-i]
+                    col_values = col_values[:len(col_values) - i]
                     break
         return col_values
 
@@ -63,6 +63,7 @@ class ExcelParser:
 
 if __name__ == '__main__':
     from Utils.Paths import TEST_CASE_FILE_PATH
+
     excel = ExcelParser(TEST_CASE_FILE_PATH, "TestCases")
     values = excel.get_cell_value(2, 9).split("=")[1:]
     value = ''.join(values)

@@ -7,7 +7,6 @@ import urllib.parse
 import socketserver
 import sys
 
-
 method_api = {
     "login": lambda **kwargs: "login {}".format(kwargs)
 }

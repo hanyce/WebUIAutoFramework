@@ -49,7 +49,7 @@ def get_raw_test_set():
             test_case = {"_Hidden": temp_row_hidden}
             # 如果该行是ddt参数，取上一行的其他数据和该行的参数组成用例
             _values = list(filter(lambda x: x is not None, [x for x in excel.get_row_values(row)]))
-            values = values[:len(values)-len(_values)] + _values
+            values = values[:len(values) - len(_values)] + _values
         else:
             test_case = {"_Hidden": row_hidden}
             values = [x for x in excel.get_row_values(row)]
@@ -181,14 +181,15 @@ def make_test_suite():
             _case_name = test_case['TestCase'] if 'TestCase' in test_case else None
             try:
                 package = import_module('TestFramework.{0}.{1}'.format(_dir_name, _file_name))  # 加载测试模块，间接加载DDT模块
-                cls = getattr(package, _cls_name)   # 加载测试类
-                for name, func in list(cls.__dict__.items()):   # 遍历测试类中的测试方法（测试用例）
-                    _name = re.sub(r'_#.*', '', name)   # 将DDT改变后的测试方法名称改成原始测试方法名称
+                cls = getattr(package, _cls_name)  # 加载测试类
+                for name, func in list(cls.__dict__.items()):  # 遍历测试类中的测试方法（测试用例）
+                    _name = re.sub(r'_#.*', '', name)  # 将DDT改变后的测试方法名称改成原始测试方法名称
                     if _name == _case_name:  # 如果测试方法名称符合测试集中的名称
-                        case = cls(name)    # 获取测试套件中测试用例对象
-                        test_suite.addTest(case)    # 将测试用例对象加入测试套件
+                        case = cls(name)  # 获取测试套件中测试用例对象
+                        test_suite.addTest(case)  # 将测试用例对象加入测试套件
             except Exception as e:
-                logger.warning('Fail to load test case <{0}><{1}><{2}>: {3}'.format(_file_name, _cls_name, _case_name, e))
+                logger.warning(
+                    'Fail to load test case <{0}><{1}><{2}>: {3}'.format(_file_name, _cls_name, _case_name, e))
     else:
         logger.error('Fail to load any test case, please check')
     return test_suite

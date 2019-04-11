@@ -9,6 +9,7 @@ class ParseLocator:
     """
     从ElementLocator.json文件中解析页面元素的定位器
     """
+
     def __init__(self):
         self.element_locator = None
         with open(ELEMENT_LOCATOR_FILE_PATH, "r", encoding="utf-8") as r:
@@ -22,6 +23,7 @@ class ParseLocator:
         :param key_path: 以[key, subkey, sub2key] 形式显示的列表
         :return: 路径对应的value
         """
+
         def rec(r_dic, r_key_path, value):
             for key in r_key_path:
                 if key not in r_dic.keys():
@@ -32,6 +34,7 @@ class ParseLocator:
                 else:
                     value.append(r_dic[key])
             return value[0]
+
         return rec(dic, key_path, [])
 
     def get_locator(self, element_path):

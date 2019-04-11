@@ -21,6 +21,7 @@ class MetaDecorator(type):
 
 class Browser(metaclass=MetaDecorator):
     """封装了selenium的WebDriver类"""
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -125,7 +126,7 @@ class Browser(metaclass=MetaDecorator):
 
     def switch_to_specific_window(self, window_index):
         windows = self.driver.window_handles
-        self.driver.switch_to.window(windows[window_index-1])
+        self.driver.switch_to.window(windows[window_index - 1])
 
     def get_cookies(self):
         self.driver.get_cookies()

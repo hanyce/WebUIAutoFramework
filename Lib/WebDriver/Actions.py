@@ -12,6 +12,7 @@ import re
 
 class KeyActions:
     """封装键盘动作，主要处理一些特殊的键区"""
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -53,6 +54,7 @@ class MetaDecorator(type):
 
 class MouseActions(metaclass=MetaDecorator):
     """封装鼠标动作"""
+
     def __init__(self, driver):
         self.driver = driver
         self._actions = ActionChains(self.driver)

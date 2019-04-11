@@ -11,7 +11,6 @@ from Lib.WebDriver.BrowserEngine import ENGINE
 
 @ddt
 class TestLogin(PUnittest):
-
     driver = ENGINE.get_driver()
     homePage = HomePage(driver)
     navigateBar = NavigateBar(driver)

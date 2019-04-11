@@ -33,7 +33,6 @@ FIREFOX_DRIVER_PATH = os.path.join(DRIVERS_DIR, "Firefox", "geckodriver.exe")
 IE_DRIVER_PATH = os.path.join(DRIVERS_DIR, "IE", "IEDriverServer.exe")
 SELENIUM_GRID_PATH = os.path.join(DRIVERS_DIR, "SeleniumGrid", "selenium-server-standalone-3.9.1.jar")
 
-
 if __name__ == "__main__":
     print('ROOT_DIR = {0}'.format(str(os.path.exists(ROOT_DIR))))
     print('CONFIG_DIR = {0}'.format(str(os.path.exists(CONFIG_DIR))))

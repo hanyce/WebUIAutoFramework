@@ -20,6 +20,7 @@ class MetaDecorator(type):
 
 class Wait(metaclass=MetaDecorator):
     """封装了selenium的WebDriverWait类"""
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -96,5 +97,6 @@ class Wait(metaclass=MetaDecorator):
         return result
 
     def alert_not_present(self, timeout=WAIT_UNTIL_NOT_TIMEOUT, frequency=WAIT_FREQUENCY):
-        result = WebDriverWait(self.driver, timeout, frequency).until_not(ec.alert_is_present(), 'Wait alert not visible')
+        result = WebDriverWait(self.driver, timeout, frequency).until_not(ec.alert_is_present(),
+                                                                          'Wait alert not visible')
         return result

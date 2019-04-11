@@ -7,7 +7,6 @@ from configparser import ConfigParser
 config = ConfigParser()
 config.read(FRAME_CONFIG_FILE_PATH)
 
-
 # ***************************************** LogConfig *****************************************
 
 CONSOLE_LOG_SWITCH = True if config.get('LogConfig', 'ConsoleSwitch') != "False" else False
@@ -39,7 +38,6 @@ HTML_REPORT_SWITCH = False if config.get('TestInfo', 'HtmlReportSwitch') != 'Tru
 HTML_REPORT_TITLE = config.get('TestInfo', 'HtmlReportTitle')
 HTML_REPORT_DESCRIPTION = config.get('TestInfo', 'HtmlReportDescription')
 HTML_REPORT_TESTER = config.get('TestInfo', 'HtmlReportTester')
-
 
 if __name__ == '__main__':
     print("CONSOLE_LOG_SWITCH", type(CONSOLE_LOG_SWITCH), CONSOLE_LOG_SWITCH)

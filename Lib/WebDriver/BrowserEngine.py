@@ -122,11 +122,11 @@ class BrowserEngine:
 
 ENGINE = BrowserEngine()
 
-
 if __name__ == '__main__':
     browser_engine = BrowserEngine()
     driver = browser_engine.launch_local_browser()
     import time
+
     time.sleep(5)
     print("{0}=========={1}".format(id(driver), driver))
     browser_engine.quit_browser()

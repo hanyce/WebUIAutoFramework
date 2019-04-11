@@ -9,6 +9,7 @@ import sys
 
 def wrapped_unittest_assertion(func):
     """用来装饰PUnittest类中所有的AssertXxx方法"""
+
     @wraps(func)
     def wrapper(*args, **kwargs):
         try:
@@ -16,11 +17,13 @@ def wrapped_unittest_assertion(func):
             return func(*args, **kwargs)
         except AssertionError as e:
             args[0].Exc_Stack.append(e)
+
     return wrapper
 
 
 def wrapped_testcase(screenshot=EXCEPTION_SCREENSHOTS_SWITCH, rerun=TEST_CASE_FAIL_RERUN_NUM):
     """用来装饰所有的测试用例，提供失败后截图和失败后重跑功能"""
+
     def wrapper(func):
         @wraps(func)
         def on_call(*args, **kwargs):
@@ -60,7 +63,9 @@ def wrapped_testcase(screenshot=EXCEPTION_SCREENSHOTS_SWITCH, rerun=TEST_CASE_FA
                         logger.info(' TestResult: '.center(100, '-'))
                         logger.error('[TestFail]: {0}: {1}'.format(exc_type.__name__, exc_msg))
                         raise
+
         return on_call
+
     return wrapper
 
 

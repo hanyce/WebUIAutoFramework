@@ -12,7 +12,6 @@ import time
 
 @ddt
 class TestSubPageTitle(PUnittest):
-
     driver = ENGINE.get_driver()
     homePage = HomePage(driver)
     navigateBar = NavigateBar(driver)

@@ -19,7 +19,6 @@ class MetaDecorator(type):
 
 
 class PUnittest(unittest.TestCase, metaclass=MetaDecorator):
-
     Exc_Stack = []
 
     @classmethod

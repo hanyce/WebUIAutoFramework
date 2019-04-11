@@ -7,7 +7,6 @@ import time
 import shutil
 import os
 
-
 now_date = time.strftime("%Y-%m-%d")
 backup_date_dir = os.path.join(BACKUP_RESULT_DIR, now_date)
 backup_logs_dir = os.path.join(backup_date_dir, "Logs")

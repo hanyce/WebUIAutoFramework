@@ -7,7 +7,6 @@ from Utils.Paths import CHROME_DRIVER_PATH
 from selenium import webdriver
 import time
 
-
 # 初始化driver，初始化各个页面类
 driver = webdriver.Chrome(CHROME_DRIVER_PATH)
 homePage = HomePage(driver)

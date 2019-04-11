@@ -11,6 +11,7 @@ import sys
 
 def logger_caller(cls):
     """装饰类，添加日志，记录调用的方法"""
+
     class Wrapper:
         def __init__(self, *args, **kwargs):
             self.wrapped = cls(*args, **kwargs)
@@ -19,6 +20,7 @@ def logger_caller(cls):
             logger.debug('Call: {0} >> {1}'.format(cls.__name__, attr))
             method = getattr(self.wrapped, attr)
             return method
+
     return Wrapper
 
 
@@ -28,6 +30,7 @@ def logger_browser():
     如果是指定异常，则不抛出错误只记录日志，否则抛出
     无法装饰静态方法和类方法，因为类名是从*args中取的第一个参数
     """
+
     def wrapper(func):
         @wraps(func)
         def on_call(*args, **kwargs):
@@ -47,12 +50,15 @@ def logger_browser():
             except Exception:
                 logger.exception('[UnwantedException]:')
                 raise
+
         return on_call
+
     return wrapper
 
 
 def logger_wait():
     """用来装饰Src中的Wait类"""
+
     def wrapper(func):
         @wraps(func)
         def on_call(*args, **kwargs):
@@ -72,12 +78,15 @@ def logger_wait():
             except Exception:
                 logger.exception('[UnwantedException]:')
                 raise
+
         return on_call
+
     return wrapper
 
 
 def logger_element():
     """用来装饰Src中的Element类"""
+
     def wrapper(func):
         @wraps(func)
         def on_call(*args, **kwargs):
@@ -87,7 +96,8 @@ def logger_element():
             try:
                 result = func(*args, **kwargs)
                 if result is not None:
-                    logger.debug('[Call]: {0} >> {1} >> {2} [Return]: {3}'.format(_cls_name, _met_name, _element_name, result))
+                    logger.debug(
+                        '[Call]: {0} >> {1} >> {2} [Return]: {3}'.format(_cls_name, _met_name, _element_name, result))
                 else:
                     logger.debug('[Call]: {0} >> {1} >> {2}'.format(_cls_name, _met_name, _element_name))
                 return result
@@ -100,5 +110,7 @@ def logger_element():
             except Exception:
                 logger.exception('[UnwantedException]:')
                 raise
+
         return on_call
+
     return wrapper
