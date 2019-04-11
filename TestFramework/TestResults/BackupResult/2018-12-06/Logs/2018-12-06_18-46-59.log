@@ -1,0 +1,9 @@
+[2018-12-06 18:47:02,343][INFO]: Initialize TestResult dir
+[2018-12-06 18:47:02,346][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 18:47:02,355][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 18:47:02,361][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 18:47:02,364][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 18:47:02,365][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 18:47:02,369][INFO]: Launch Chrome browser
+[2018-12-06 18:47:07,329][INFO]: Maximize browser
+[2018-12-06 18:47:08,453][INFO]: Set implicity wait time to 30.0

@@ -1,0 +1,6 @@
+[2018-12-06 18:23:13,535][INFO]: Initialize TestResult dir
+[2018-12-06 18:23:13,536][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 18:23:13,544][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 18:23:13,548][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 18:23:13,550][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 18:23:13,551][INFO]: Initialize LastResult and inner dirs

@@ -1,0 +1,38 @@
+[2018-12-06 18:15:52,546][INFO]: Initialize TestResult dir
+[2018-12-06 18:15:52,568][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 18:15:52,573][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 18:15:52,575][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 18:15:52,577][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 18:15:52,578][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 18:15:52,584][INFO]: Start to test...
+[2018-12-06 18:15:52,584][INFO]: ************************************ TestDDT >> test_ddt_#test1 ************************************
+[2018-12-06 18:15:52,585][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 18:15:52,585][INFO]: username: username1
+[2018-12-06 18:15:52,585][INFO]: password: password1
+[2018-12-06 18:15:52,585][DEBUG]: [Assert]: assertTrue >> ('username1',)
+[2018-12-06 18:15:52,585][DEBUG]: [Assert]: assertTrue >> ('password1',)
+[2018-12-06 18:15:52,585][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 18:15:52,585][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test1 
+[2018-12-06 18:15:52,585][INFO]: ****************************************************************************************************
+
+[2018-12-06 18:15:52,585][INFO]: ************************************ TestDDT >> test_ddt_#test2 ************************************
+[2018-12-06 18:15:52,586][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 18:15:52,586][INFO]: username: username2
+[2018-12-06 18:15:52,586][INFO]: password: password2
+[2018-12-06 18:15:52,586][DEBUG]: [Assert]: assertTrue >> ('username2',)
+[2018-12-06 18:15:52,586][DEBUG]: [Assert]: assertTrue >> ('password2',)
+[2018-12-06 18:15:52,586][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 18:15:52,586][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test2 
+[2018-12-06 18:15:52,586][INFO]: ****************************************************************************************************
+
+[2018-12-06 18:15:52,586][INFO]: ************************************ TestDDT >> test_ddt_#test3 ************************************
+[2018-12-06 18:15:52,586][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 18:15:52,587][INFO]: username: username3
+[2018-12-06 18:15:52,587][INFO]: password: password3
+[2018-12-06 18:15:52,587][DEBUG]: [Assert]: assertTrue >> ('username3',)
+[2018-12-06 18:15:52,587][DEBUG]: [Assert]: assertTrue >> ('password3',)
+[2018-12-06 18:15:52,587][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 18:15:52,587][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test3 
+[2018-12-06 18:15:52,587][INFO]: ****************************************************************************************************
+
+[2018-12-06 18:15:52,587][INFO]: Finish testing...

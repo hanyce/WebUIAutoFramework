@@ -1,0 +1,61 @@
+[2018-12-06 18:50:39,361][INFO]: Initialize TestResult dir
+[2018-12-06 18:50:39,362][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 18:50:39,368][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 18:50:39,370][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 18:50:39,371][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 18:50:39,371][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 18:50:39,373][INFO]: Launch Chrome browser
+[2018-12-06 18:50:44,239][INFO]: Maximize browser
+[2018-12-06 18:50:45,359][INFO]: Set implicity wait time to 30.0
+[2018-12-06 18:50:45,371][INFO]: Start to test...
+
+[2018-12-06 18:50:45,371][INFO]: ****************************** TestLogin >> test_login_#login_success ******************************
+[2018-12-06 18:51:13,847][DEBUG]: [Call]: Browser >> navigate_to
+[2018-12-06 18:51:14,157][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:15,457][DEBUG]: [Call]: Element >> click >> HomePage.sign_in_button
+[2018-12-06 18:51:15,457][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 18:51:15,502][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:15,533][DEBUG]: [Call]: Element >> clear >> LoginPage.username_textbox
+[2018-12-06 18:51:15,560][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:15,680][DEBUG]: [Call]: Element >> send_keys >> LoginPage.username_textbox
+[2018-12-06 18:51:15,732][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:15,764][DEBUG]: [Call]: Element >> clear >> LoginPage.password_textbox
+[2018-12-06 18:51:15,785][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:15,833][DEBUG]: [Call]: Element >> send_keys >> LoginPage.password_textbox
+[2018-12-06 18:51:15,872][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:26,089][DEBUG]: [Call]: Element >> click >> LoginPage.access_account_button
+[2018-12-06 18:51:26,406][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 18:51:26,420][DEBUG]: [Call]: Element >> is_displayed >> HomePage.expand_navigate_button [Return]: True
+[2018-12-06 18:51:26,471][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 18:51:26,488][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 18:51:27,489][DEBUG]: [Assert]: assertTrue >> (True,)
+[2018-12-06 18:51:27,489][DEBUG]: [Assert]: assertTrue >> (True,)
+[2018-12-06 18:51:28,000][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 18:51:28,016][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 18:51:29,069][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 18:51:29,093][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.sign_out_button [Return]: True
+[2018-12-06 18:51:29,132][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:35,639][DEBUG]: [Call]: Element >> click >> NavigateBar.sign_out_button
+[2018-12-06 18:51:35,639][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 18:51:35,639][INFO]: [TestSuccess]: TestLogin >> test_login_#login_success 
+[2018-12-06 18:51:35,640][INFO]: ****************************************************************************************************
+
+[2018-12-06 18:51:35,640][INFO]: *************************** TestLogin >> test_login_#fail_empty_username ***************************
+[2018-12-06 18:51:51,282][DEBUG]: [Call]: Browser >> navigate_to
+[2018-12-06 18:51:51,325][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:51,850][DEBUG]: [Call]: Element >> click >> HomePage.sign_in_button
+[2018-12-06 18:51:51,851][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 18:51:51,902][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:51,928][DEBUG]: [Call]: Element >> clear >> LoginPage.username_textbox
+[2018-12-06 18:51:51,955][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:51,987][DEBUG]: [Call]: Element >> send_keys >> LoginPage.username_textbox
+[2018-12-06 18:51:52,026][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:52,049][DEBUG]: [Call]: Element >> clear >> LoginPage.password_textbox
+[2018-12-06 18:51:52,072][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:52,126][DEBUG]: [Call]: Element >> send_keys >> LoginPage.password_textbox
+[2018-12-06 18:51:52,167][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 18:51:53,456][DEBUG]: [Call]: Element >> click >> LoginPage.access_account_button
+[2018-12-06 18:52:23,977][WARNING]: [TimeoutException]: Message: Wait element ('class name', 'hamburger') visible
+[2018-12-06 18:52:54,039][DEBUG]: [Call]: Element >> is_displayed >> HomePage.expand_navigate_button [Return]: False
+[2018-12-06 18:53:24,579][WARNING]: [TimeoutException]: Message: Wait element ('css selector', ".has-error[name='username']") visible
+[2018-12-06 18:53:54,606][DEBUG]: [Call]: Element >> is_displayed >> LoginPage.username_empty_prompt [Return]: False

@@ -1,0 +1,15 @@
+[2018-12-06 19:40:17,693][INFO]: Initialize TestResult dir
+[2018-12-06 19:40:17,695][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 19:40:17,702][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 19:40:17,706][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 19:40:17,708][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 19:40:17,710][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 19:40:17,717][INFO]: Start to test...
+
+[2018-12-06 19:40:17,718][INFO]: ******************************* TestDemo01 >> test_articles_title_# ********************************
+[2018-12-06 19:40:17,719][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:40:17,719][INFO]: param1: param1
+[2018-12-06 19:40:17,719][INFO]: param2: param2
+[2018-12-06 19:40:17,720][DEBUG]: [Assert]: assertEqual >> ('param1', 'param')
+[2018-12-06 19:40:49,191][DEBUG]: [Assert]: assertIsInstance >> ('param1', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:40:49,192][DEBUG]: [Assert]: assertIsInstance >> ('param', <class 'str'>, 'Second argument is not a string')

@@ -1,0 +1,60 @@
+[2018-12-06 19:25:52,817][INFO]: Initialize TestResult dir
+[2018-12-06 19:25:52,818][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 19:25:52,823][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 19:25:52,828][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 19:25:52,830][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 19:25:52,831][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 19:25:52,844][INFO]: Start to test...
+
+[2018-12-06 19:25:52,844][INFO]: ******************************* TestDemo01 >> test_articles_title_# ********************************
+[2018-12-06 19:25:52,844][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:25:52,844][INFO]: param1: param1
+[2018-12-06 19:25:52,844][INFO]: param2: param2
+[2018-12-06 19:25:52,844][DEBUG]: [Assert]: assertEqual >> ('param1', 'param')
+[2018-12-06 19:25:52,844][DEBUG]: [Assert]: assertIsInstance >> ('param1', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:25:52,845][DEBUG]: [Assert]: assertIsInstance >> ('param', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:25:52,845][DEBUG]: [Assert]: assertEqual >> ('param2', 'param')
+[2018-12-06 19:25:52,845][DEBUG]: [Assert]: assertIsInstance >> ('param2', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:25:52,845][DEBUG]: [Assert]: assertIsInstance >> ('param', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:25:52,845][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:25:52,845][INFO]: param1: param1
+[2018-12-06 19:25:52,845][INFO]: param2: param2
+[2018-12-06 19:25:52,845][DEBUG]: [Assert]: assertEqual >> ('param1', 'param')
+[2018-12-06 19:25:52,845][DEBUG]: [Assert]: assertIsInstance >> ('param1', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:25:52,845][DEBUG]: [Assert]: assertIsInstance >> ('param', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:25:52,846][DEBUG]: [Assert]: assertEqual >> ('param2', 'param')
+[2018-12-06 19:25:52,846][DEBUG]: [Assert]: assertIsInstance >> ('param2', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:25:52,846][DEBUG]: [Assert]: assertIsInstance >> ('param', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:25:52,846][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:25:52,846][INFO]: param1: param1
+[2018-12-06 19:25:52,846][INFO]: param2: param2
+[2018-12-06 19:25:52,846][DEBUG]: [Assert]: assertEqual >> ('param1', 'param')
+[2018-12-06 19:25:52,846][DEBUG]: [Assert]: assertIsInstance >> ('param1', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:25:52,846][DEBUG]: [Assert]: assertIsInstance >> ('param', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:25:52,847][DEBUG]: [Assert]: assertEqual >> ('param2', 'param')
+[2018-12-06 19:25:52,847][DEBUG]: [Assert]: assertIsInstance >> ('param2', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:25:52,847][DEBUG]: [Assert]: assertIsInstance >> ('param', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:25:52,847][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:25:52,847][ERROR]: [TestFail]: AssertionError: 'param1' != 'param'
+- param1
+?      -
++ param
+, AssertionError: 'param2' != 'param'
+- param2
+?      -
++ param
+
+[2018-12-06 19:25:52,847][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:25:52,848][INFO]: *************************************** TestDemo01 >> test02 ***************************************
+[2018-12-06 19:25:52,848][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:25:52,849][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:25:52,849][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:25:52,849][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:25:52,849][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:25:52,849][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:25:52,850][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:25:52,850][ERROR]: [TestFail]: AssertionError: 1 != 2
+[2018-12-06 19:25:52,850][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:25:52,850][INFO]: Finish testing...

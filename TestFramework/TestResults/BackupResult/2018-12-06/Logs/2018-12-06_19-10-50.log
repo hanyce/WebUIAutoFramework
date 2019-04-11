@@ -1,0 +1,22 @@
+[2018-12-06 19:10:51,015][INFO]: Initialize TestResult dir
+[2018-12-06 19:10:51,017][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 19:10:51,022][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 19:10:51,027][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 19:10:51,029][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 19:10:51,030][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 19:10:51,035][INFO]: Start to test...
+
+[2018-12-06 19:10:51,035][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:10:51,035][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:10:51,036][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:10:51,036][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:10:51,036][ERROR]: [TestFail]: TypeError: test_articles_title() missing 2 required positional arguments: 'param1' and 'param2'
+[2018-12-06 19:10:51,036][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:10:51,036][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:10:51,037][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:10:51,037][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:10:51,037][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:10:51,037][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:10:51,037][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:10:51,037][ERROR]: [TestFail]: AssertionError: 1 != 2
+[2018-12-06 19:10:51,038][INFO]: Finish testing...

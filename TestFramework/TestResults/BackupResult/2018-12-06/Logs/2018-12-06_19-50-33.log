@@ -1,0 +1,28 @@
+[2018-12-06 19:50:34,520][INFO]: Initialize TestResult dir
+[2018-12-06 19:50:34,521][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 19:50:34,527][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\WebUIAutoFrameworkv_1.1\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 19:50:34,532][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\WebUIAutoFrameworkv_1.1\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 19:50:34,534][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\WebUIAutoFrameworkv_1.1\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 19:50:34,542][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 19:50:34,548][INFO]: Start to test...
+
+[2018-12-06 19:50:34,549][INFO]: ******************************* TestDemo01 >> test_articles_title_# ********************************
+[2018-12-06 19:50:34,549][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:50:34,549][INFO]: param1: param1
+[2018-12-06 19:50:34,549][INFO]: param2: param2
+[2018-12-06 19:50:34,549][DEBUG]: [Assert]: assertEqual >> ('param1', 'param')
+[2018-12-06 19:50:34,549][DEBUG]: [Assert]: assertMultiLineEqual >> ('param1', 'param')
+[2018-12-06 19:50:34,549][DEBUG]: [Assert]: assertEqual >> ('param2', 'param')
+[2018-12-06 19:50:34,549][DEBUG]: [Assert]: assertMultiLineEqual >> ('param2', 'param')
+[2018-12-06 19:50:34,550][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:50:34,550][ERROR]: [TestFail]: AssertionError: param1 != param, AssertionError: param2 != param
+[2018-12-06 19:50:34,550][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:50:34,551][INFO]: *************************************** TestDemo01 >> test02 ***************************************
+[2018-12-06 19:50:34,551][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:50:34,551][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:50:34,551][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:50:34,551][ERROR]: [TestFail]: AssertionError: 1 != 2
+[2018-12-06 19:50:34,551][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:50:34,552][INFO]: Finish testing...

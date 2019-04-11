@@ -1,0 +1,118 @@
+[2018-12-06 18:39:39,438][INFO]: Initialize TestResult dir
+[2018-12-06 18:39:39,439][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 18:39:39,446][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 18:39:39,452][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 18:39:39,453][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 18:39:39,454][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 18:39:39,457][INFO]: Launch Chrome browser
+[2018-12-06 18:39:44,435][INFO]: Maximize browser
+[2018-12-06 18:39:45,551][INFO]: Set implicity wait time to 30.0
+[2018-12-06 18:39:45,591][INFO]: Start to test...
+
+[2018-12-06 18:39:45,591][INFO]: ****************************** TestLogin >> test_login_#login_success ******************************
+[2018-12-06 18:39:45,592][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,593][INFO]: *************************** TestLogin >> test_login_#fail_empty_username ***************************
+[2018-12-06 18:39:45,593][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,594][INFO]: *************************** TestLogin >> test_login_#fail_empty_password ***************************
+[2018-12-06 18:39:45,594][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,595][INFO]: ************************* TestLogin >> test_login_#fail_incorrect_username *************************
+[2018-12-06 18:39:45,595][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,596][INFO]: ************************* TestLogin >> test_login_#fail_incorrect_password *************************
+[2018-12-06 18:39:45,596][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,596][INFO]: ************************ TestLogin >> test_login_#fail_overlength_username *************************
+[2018-12-06 18:39:45,596][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,597][INFO]: ************************ TestLogin >> test_login_#fail_overlength_password *************************
+[2018-12-06 18:39:45,597][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,598][INFO]: ************************** TestLogin >> test_login_#fail_symbols_username **************************
+[2018-12-06 18:39:45,598][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,598][INFO]: ************************** TestLogin >> test_login_#fail_symbols_password **************************
+[2018-12-06 18:39:45,599][ERROR]: [UnwantedException]:
+Traceback (most recent call last):
+  File "E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestEngine\Decorator.py", line 38, in on_call
+    result = func(*args, **kwargs)
+  File "E:\Workspace\Projects\WebUIAutoFramework\Lib\WebDriver\Browser.py", line 67, in navigate_to
+    self.driver.get(url)
+AttributeError: 'NoneType' object has no attribute 'get'
+[2018-12-06 18:39:45,599][INFO]: ************************************ TestDDT >> test_ddt_#test1 ************************************
+[2018-12-06 18:39:45,600][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 18:39:45,600][INFO]: username: username1
+[2018-12-06 18:39:45,600][INFO]: password: password1
+[2018-12-06 18:39:45,600][DEBUG]: [Assert]: assertTrue >> ('test1',)
+[2018-12-06 18:39:45,601][DEBUG]: [Assert]: assertTrue >> ('username1',)
+[2018-12-06 18:39:45,601][DEBUG]: [Assert]: assertTrue >> ('password1',)
+[2018-12-06 18:39:45,601][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 18:39:45,601][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test1 
+[2018-12-06 18:39:45,601][INFO]: ****************************************************************************************************
+
+[2018-12-06 18:39:45,601][INFO]: ************************************ TestDDT >> test_ddt_#test2 ************************************
+[2018-12-06 18:39:45,601][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 18:39:45,601][INFO]: username: username2
+[2018-12-06 18:39:45,601][INFO]: password: password2
+[2018-12-06 18:39:45,601][DEBUG]: [Assert]: assertTrue >> ('test2',)
+[2018-12-06 18:39:45,602][DEBUG]: [Assert]: assertTrue >> ('username2',)
+[2018-12-06 18:39:45,602][DEBUG]: [Assert]: assertTrue >> ('password2',)
+[2018-12-06 18:39:45,602][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 18:39:45,602][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test2 
+[2018-12-06 18:39:45,602][INFO]: ****************************************************************************************************
+
+[2018-12-06 18:39:45,602][INFO]: ************************************ TestDDT >> test_ddt_#test3 ************************************
+[2018-12-06 18:39:45,602][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 18:39:45,602][INFO]: username: username3
+[2018-12-06 18:39:45,602][INFO]: password: password3
+[2018-12-06 18:39:45,602][DEBUG]: [Assert]: assertTrue >> ('test3',)
+[2018-12-06 18:39:45,602][DEBUG]: [Assert]: assertTrue >> ('username3',)
+[2018-12-06 18:39:45,603][DEBUG]: [Assert]: assertTrue >> ('password3',)
+[2018-12-06 18:39:45,603][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 18:39:45,603][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test3 
+[2018-12-06 18:39:45,603][INFO]: ****************************************************************************************************
+
+[2018-12-06 18:39:45,603][INFO]: Finish testing...
+[2018-12-06 18:39:45,604][INFO]: Quit browser and release current driver

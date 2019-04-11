@@ -1,0 +1,48 @@
+[2018-12-06 19:25:20,644][INFO]: Initialize TestResult dir
+[2018-12-06 19:25:20,645][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 19:25:20,650][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 19:25:20,654][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 19:25:20,657][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 19:25:20,657][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 19:25:20,669][INFO]: Start to test...
+
+[2018-12-06 19:25:20,669][INFO]: ******************************* TestDemo01 >> test_articles_title_# ********************************
+[2018-12-06 19:25:20,669][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:25:20,669][INFO]: param1: param1
+[2018-12-06 19:25:20,669][INFO]: param2: param2
+[2018-12-06 19:25:20,669][DEBUG]: [Assert]: assertEqual >> ('param1', 'param')
+[2018-12-06 19:25:20,669][DEBUG]: [Assert]: assertEqual >> ('param2', 'param')
+[2018-12-06 19:25:20,670][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:25:20,670][INFO]: param1: param1
+[2018-12-06 19:25:20,670][INFO]: param2: param2
+[2018-12-06 19:25:20,670][DEBUG]: [Assert]: assertEqual >> ('param1', 'param')
+[2018-12-06 19:25:20,670][DEBUG]: [Assert]: assertEqual >> ('param2', 'param')
+[2018-12-06 19:25:20,670][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:25:20,670][INFO]: param1: param1
+[2018-12-06 19:25:20,671][INFO]: param2: param2
+[2018-12-06 19:25:20,671][DEBUG]: [Assert]: assertEqual >> ('param1', 'param')
+[2018-12-06 19:25:20,671][DEBUG]: [Assert]: assertEqual >> ('param2', 'param')
+[2018-12-06 19:25:20,671][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:25:20,671][ERROR]: [TestFail]: AssertionError: 'param1' != 'param'
+- param1
+?      -
++ param
+, AssertionError: 'param2' != 'param'
+- param2
+?      -
++ param
+
+[2018-12-06 19:25:20,671][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:25:20,673][INFO]: *************************************** TestDemo01 >> test02 ***************************************
+[2018-12-06 19:25:20,673][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:25:20,673][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:25:20,673][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:25:20,673][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:25:20,673][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:25:20,673][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:25:20,673][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:25:20,674][ERROR]: [TestFail]: AssertionError: 1 != 2
+[2018-12-06 19:25:20,674][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:25:20,674][INFO]: Finish testing...

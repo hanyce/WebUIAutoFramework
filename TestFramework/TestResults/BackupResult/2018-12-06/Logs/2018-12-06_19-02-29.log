@@ -1,0 +1,270 @@
+[2018-12-06 19:02:30,275][INFO]: Initialize TestResult dir
+[2018-12-06 19:02:30,277][INFO]: Initialize BackupResult and inner dirs
+[2018-12-06 19:02:30,283][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Logs
+[2018-12-06 19:02:30,287][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Reports
+[2018-12-06 19:02:30,289][INFO]: BackupResult E:\Workspace\Projects\WebUIAutoFramework\TestFramework\TestResults\LastResult\Screenshots
+[2018-12-06 19:02:30,290][INFO]: Initialize LastResult and inner dirs
+[2018-12-06 19:02:30,292][INFO]: Launch Chrome browser
+[2018-12-06 19:02:35,054][INFO]: Maximize browser
+[2018-12-06 19:02:36,176][INFO]: Set implicity wait time to 10.0
+[2018-12-06 19:02:36,207][WARNING]: Fail to load test case <asd><asd><asd>: No module named 'TestFramework.TestSuite.asd'
+[2018-12-06 19:02:36,209][INFO]: Start to test...
+
+[2018-12-06 19:02:43,277][DEBUG]: [Call]: Browser >> navigate_to
+[2018-12-06 19:02:43,277][INFO]: ***************************** TestSubPageTitle >> test_articles_title ******************************
+[2018-12-06 19:02:43,278][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:02:43,377][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:43,389][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:02:43,426][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:02:43,478][DEBUG]: [Call]: Element >> click >> NavigateBar.articles_button
+[2018-12-06 19:02:45,509][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:45,560][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Articles
+[2018-12-06 19:02:45,560][DEBUG]: [Assert]: assertEqual >> ('Articles', 'Software Testing Articles')
+[2018-12-06 19:02:45,561][DEBUG]: [Assert]: assertIsInstance >> ('Articles', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:02:45,561][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Articles', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:02:45,561][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:02:45,582][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:45,607][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:02:45,631][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:02:45,734][DEBUG]: [Call]: Element >> click >> NavigateBar.articles_button
+[2018-12-06 19:02:47,753][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:47,769][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Articles
+[2018-12-06 19:02:47,769][DEBUG]: [Assert]: assertEqual >> ('Articles', 'Software Testing Articles')
+[2018-12-06 19:02:47,769][DEBUG]: [Assert]: assertIsInstance >> ('Articles', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:02:47,769][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Articles', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:02:47,769][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:02:47,785][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:47,798][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:02:47,822][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:02:47,859][DEBUG]: [Call]: Element >> click >> NavigateBar.articles_button
+[2018-12-06 19:02:49,878][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:49,893][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Articles
+[2018-12-06 19:02:49,893][DEBUG]: [Assert]: assertEqual >> ('Articles', 'Software Testing Articles')
+[2018-12-06 19:02:49,893][DEBUG]: [Assert]: assertIsInstance >> ('Articles', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:02:49,894][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Articles', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:02:49,894][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:02:49,894][ERROR]: [TestFail]: AssertionError: 'Articles' != 'Software Testing Articles'
+- Articles
++ Software Testing Articles
+
+[2018-12-06 19:02:49,894][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:02:49,894][INFO]: ***************************** TestSubPageTitle >> test_training_title ******************************
+[2018-12-06 19:02:49,895][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:02:49,911][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:49,925][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:02:49,962][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:02:50,010][DEBUG]: [Call]: Element >> click >> NavigateBar.training_button
+[2018-12-06 19:02:52,032][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:52,057][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Training
+[2018-12-06 19:02:52,057][DEBUG]: [Assert]: assertEqual >> ('Training', 'Software Testing Courses')
+[2018-12-06 19:02:52,057][DEBUG]: [Assert]: assertIsInstance >> ('Training', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:02:52,057][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Courses', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:02:52,057][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:02:52,074][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:52,087][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:02:52,111][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:02:52,177][DEBUG]: [Call]: Element >> click >> NavigateBar.training_button
+[2018-12-06 19:02:54,195][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:54,209][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Training
+[2018-12-06 19:02:54,209][DEBUG]: [Assert]: assertEqual >> ('Training', 'Software Testing Courses')
+[2018-12-06 19:02:54,209][DEBUG]: [Assert]: assertIsInstance >> ('Training', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:02:54,209][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Courses', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:02:54,210][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:02:54,226][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:54,240][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:02:54,263][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:02:54,308][DEBUG]: [Call]: Element >> click >> NavigateBar.training_button
+[2018-12-06 19:02:56,369][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:56,403][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Training
+[2018-12-06 19:02:56,403][DEBUG]: [Assert]: assertEqual >> ('Training', 'Software Testing Courses')
+[2018-12-06 19:02:56,403][DEBUG]: [Assert]: assertIsInstance >> ('Training', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:02:56,404][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Courses', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:02:56,404][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:02:56,404][ERROR]: [TestFail]: AssertionError: 'Training' != 'Software Testing Courses'
+- Training
++ Software Testing Courses
+
+[2018-12-06 19:02:56,405][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:02:56,405][INFO]: ****************************** TestSubPageTitle >> test_forums_title *******************************
+[2018-12-06 19:02:56,406][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:02:56,436][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:56,463][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:02:56,538][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:02:56,610][DEBUG]: [Call]: Element >> click >> NavigateBar.forums_button
+[2018-12-06 19:02:58,635][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:58,661][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Forums
+[2018-12-06 19:02:58,661][DEBUG]: [Assert]: assertEqual >> ('Forums', 'xxxxxxxxxxxxxxxx')
+[2018-12-06 19:02:58,661][DEBUG]: [Assert]: assertIsInstance >> ('Forums', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:02:58,661][DEBUG]: [Assert]: assertIsInstance >> ('xxxxxxxxxxxxxxxx', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:02:58,661][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:02:58,681][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:02:58,696][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:02:58,724][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:02:58,778][DEBUG]: [Call]: Element >> click >> NavigateBar.forums_button
+[2018-12-06 19:03:00,808][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:00,831][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Forums
+[2018-12-06 19:03:00,831][DEBUG]: [Assert]: assertEqual >> ('Forums', 'xxxxxxxxxxxxxxxx')
+[2018-12-06 19:03:00,831][DEBUG]: [Assert]: assertIsInstance >> ('Forums', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:03:00,831][DEBUG]: [Assert]: assertIsInstance >> ('xxxxxxxxxxxxxxxx', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:03:00,832][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:03:00,851][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:00,866][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:03:00,894][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:03:00,945][DEBUG]: [Call]: Element >> click >> NavigateBar.forums_button
+[2018-12-06 19:03:03,000][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:03,048][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Forums
+[2018-12-06 19:03:03,048][DEBUG]: [Assert]: assertEqual >> ('Forums', 'xxxxxxxxxxxxxxxx')
+[2018-12-06 19:03:03,049][DEBUG]: [Assert]: assertIsInstance >> ('Forums', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:03:03,049][DEBUG]: [Assert]: assertIsInstance >> ('xxxxxxxxxxxxxxxx', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:03:03,049][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:03,049][ERROR]: [TestFail]: AssertionError: 'Forums' != 'xxxxxxxxxxxxxxxx'
+- Forums
++ xxxxxxxxxxxxxxxx
+
+[2018-12-06 19:03:03,050][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:03:03,050][INFO]: ******************************* TestSubPageTitle >> test_tools_title *******************************
+[2018-12-06 19:03:03,051][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:03,083][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:03,112][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:03:03,184][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:03:03,244][DEBUG]: [Call]: Element >> click >> NavigateBar.tools_button
+[2018-12-06 19:03:05,286][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:05,313][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Tools
+[2018-12-06 19:03:05,313][DEBUG]: [Assert]: assertEqual >> ('Tools', 'Software Testing Tool Reviews')
+[2018-12-06 19:03:05,313][DEBUG]: [Assert]: assertIsInstance >> ('Tools', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:03:05,313][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Tool Reviews', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:03:05,313][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:03:05,332][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:05,347][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:03:05,375][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:03:05,412][DEBUG]: [Call]: Element >> click >> NavigateBar.tools_button
+[2018-12-06 19:03:07,463][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:07,492][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Tools
+[2018-12-06 19:03:07,492][DEBUG]: [Assert]: assertEqual >> ('Tools', 'Software Testing Tool Reviews')
+[2018-12-06 19:03:07,492][DEBUG]: [Assert]: assertIsInstance >> ('Tools', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:03:07,492][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Tool Reviews', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:03:07,493][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:03:07,524][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:07,551][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:03:07,595][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:03:07,644][DEBUG]: [Call]: Element >> click >> NavigateBar.tools_button
+[2018-12-06 19:03:09,702][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:09,730][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Tools
+[2018-12-06 19:03:09,731][DEBUG]: [Assert]: assertEqual >> ('Tools', 'Software Testing Tool Reviews')
+[2018-12-06 19:03:09,731][DEBUG]: [Assert]: assertIsInstance >> ('Tools', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:03:09,731][DEBUG]: [Assert]: assertIsInstance >> ('Software Testing Tool Reviews', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:03:09,731][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:09,732][ERROR]: [TestFail]: AssertionError: 'Tools' != 'Software Testing Tool Reviews'
+- Tools
++ Software Testing Tool Reviews
+
+[2018-12-06 19:03:09,732][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:03:09,733][INFO]: ***************************** TestSubPageTitle >> test_projects_title ******************************
+[2018-12-06 19:03:09,733][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:09,754][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:09,772][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:03:09,814][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:03:09,877][DEBUG]: [Call]: Element >> click >> NavigateBar.projects_button
+[2018-12-06 19:03:11,907][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:11,933][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Project Board
+[2018-12-06 19:03:11,933][DEBUG]: [Assert]: assertEqual >> ('Project Board', 'xxxxxxxxxxxxxxxxxxx')
+[2018-12-06 19:03:11,933][DEBUG]: [Assert]: assertIsInstance >> ('Project Board', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:03:11,933][DEBUG]: [Assert]: assertIsInstance >> ('xxxxxxxxxxxxxxxxxxx', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:03:11,934][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:03:11,952][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:11,967][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:03:11,995][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:03:12,076][DEBUG]: [Call]: Element >> click >> NavigateBar.projects_button
+[2018-12-06 19:03:14,123][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:14,156][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Project Board
+[2018-12-06 19:03:14,157][DEBUG]: [Assert]: assertEqual >> ('Project Board', 'xxxxxxxxxxxxxxxxxxx')
+[2018-12-06 19:03:14,157][DEBUG]: [Assert]: assertIsInstance >> ('Project Board', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:03:14,157][DEBUG]: [Assert]: assertIsInstance >> ('xxxxxxxxxxxxxxxxxxx', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:03:14,157][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:03:14,183][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:14,204][DEBUG]: [Call]: Element >> is_displayed >> NavigateBar.navigate_bar [Return]: True
+[2018-12-06 19:03:14,240][DEBUG]: [Call]: Wait >> element_clickable [Return]: True
+[2018-12-06 19:03:14,276][DEBUG]: [Call]: Element >> click >> NavigateBar.projects_button
+[2018-12-06 19:03:16,332][DEBUG]: [Call]: Wait >> element_visible [Return]: True
+[2018-12-06 19:03:16,362][DEBUG]: [Call]: Element >> get_text >> HomePage.title_label [Return]: Project Board
+[2018-12-06 19:03:16,362][DEBUG]: [Assert]: assertEqual >> ('Project Board', 'xxxxxxxxxxxxxxxxxxx')
+[2018-12-06 19:03:16,363][DEBUG]: [Assert]: assertIsInstance >> ('Project Board', <class 'str'>, 'First argument is not a string')
+[2018-12-06 19:03:16,363][DEBUG]: [Assert]: assertIsInstance >> ('xxxxxxxxxxxxxxxxxxx', <class 'str'>, 'Second argument is not a string')
+[2018-12-06 19:03:16,363][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:16,363][ERROR]: [TestFail]: AssertionError: 'Project Board' != 'xxxxxxxxxxxxxxxxxxx'
+- Project Board
++ xxxxxxxxxxxxxxxxxxx
+
+[2018-12-06 19:03:16,364][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:03:16,365][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:16,365][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:03:16,365][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:03:16,365][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:16,365][ERROR]: [TestFail]: TypeError: test_articles_title() missing 2 required positional arguments: 'param1' and 'param2'
+[2018-12-06 19:03:16,366][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:16,367][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:03:16,367][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:03:16,367][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:03:16,367][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:03:16,367][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:03:16,368][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:16,368][ERROR]: [TestFail]: AssertionError: 1 != 2
+[2018-12-06 19:03:16,369][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:16,369][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:03:16,369][DEBUG]: [Assert]: assertEqual >> (2, 3)
+[2018-12-06 19:03:16,370][DEBUG]: [Assert]: assertEqual >> (1, 1)
+[2018-12-06 19:03:16,370][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:03:16,370][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:03:16,370][DEBUG]: [Assert]: assertEqual >> (2, 3)
+[2018-12-06 19:03:16,371][DEBUG]: [Assert]: assertEqual >> (1, 1)
+[2018-12-06 19:03:16,371][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:03:16,371][DEBUG]: [Assert]: assertEqual >> (1, 2)
+[2018-12-06 19:03:16,371][DEBUG]: [Assert]: assertEqual >> (2, 3)
+[2018-12-06 19:03:16,371][DEBUG]: [Assert]: assertEqual >> (1, 1)
+[2018-12-06 19:03:16,372][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:16,372][ERROR]: [TestFail]: AssertionError: 1 != 2, AssertionError: 2 != 3
+[2018-12-06 19:03:16,373][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:16,373][INFO]: ----------------------------------------- TestRunNo: >> 2 ------------------------------------------
+[2018-12-06 19:03:16,373][INFO]: ----------------------------------------- TestRunNo: >> 3 ------------------------------------------
+[2018-12-06 19:03:16,373][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:16,374][ERROR]: [TestFail]: ValueError: 2 is not in list
+[2018-12-06 19:03:16,375][INFO]: ************************************ TestDDT >> test_ddt_#test1 ************************************
+[2018-12-06 19:03:16,375][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:16,375][INFO]: username: username1
+[2018-12-06 19:03:16,376][INFO]: password: password1
+[2018-12-06 19:03:16,376][DEBUG]: [Assert]: assertTrue >> ('test1',)
+[2018-12-06 19:03:16,376][DEBUG]: [Assert]: assertTrue >> ('username1',)
+[2018-12-06 19:03:16,376][DEBUG]: [Assert]: assertTrue >> ('password1',)
+[2018-12-06 19:03:16,376][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:16,376][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test1 
+[2018-12-06 19:03:16,377][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:03:16,377][INFO]: ************************************ TestDDT >> test_ddt_#test2 ************************************
+[2018-12-06 19:03:16,377][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:16,378][INFO]: username: username2
+[2018-12-06 19:03:16,378][INFO]: password: password2
+[2018-12-06 19:03:16,378][DEBUG]: [Assert]: assertTrue >> ('test2',)
+[2018-12-06 19:03:16,378][DEBUG]: [Assert]: assertTrue >> ('username2',)
+[2018-12-06 19:03:16,378][DEBUG]: [Assert]: assertTrue >> ('password2',)
+[2018-12-06 19:03:16,378][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:16,379][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test2 
+[2018-12-06 19:03:16,379][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:03:16,379][INFO]: ************************************ TestDDT >> test_ddt_#test3 ************************************
+[2018-12-06 19:03:16,379][INFO]: ----------------------------------------- TestRunNo: >> 1 ------------------------------------------
+[2018-12-06 19:03:16,380][INFO]: username: username3
+[2018-12-06 19:03:16,380][INFO]: password: password3
+[2018-12-06 19:03:16,380][DEBUG]: [Assert]: assertTrue >> ('test3',)
+[2018-12-06 19:03:16,380][DEBUG]: [Assert]: assertTrue >> ('username3',)
+[2018-12-06 19:03:16,380][DEBUG]: [Assert]: assertTrue >> ('password3',)
+[2018-12-06 19:03:16,380][INFO]: ------------------------------------------- TestResult: --------------------------------------------
+[2018-12-06 19:03:16,381][INFO]: [TestSuccess]: TestDDT >> test_ddt_#test3 
+[2018-12-06 19:03:16,381][INFO]: ****************************************************************************************************
+
+[2018-12-06 19:03:16,382][INFO]: Finish testing...
+[2018-12-06 19:03:16,383][INFO]: Quit browser and release current driver
